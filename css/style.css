@@ -21,15 +21,16 @@ body {
   background: -ms-linear-gradient(top,  rgba(79,79,79,1) 0%,rgba(19,19,19,1) 57%,rgba(19,19,19,1) 100%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(79,79,79,1) 0%,rgba(19,19,19,1) 57%,rgba(19,19,19,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#131313',GradientType=0 ); /* IE6-8 */
-  font-family: 'Avenir Next Condensed', 'Arial Narrow', sans-serif;
-  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: ;
 }
 
 h1 {
-  font-size: 12.25em;
+  font-size: 10em;
   line-height: 1em;
-  letter-spacing: .03em;
+  letter-spacing: .01em;
   margin-bottom: 2px;
+  display: -ms-flexbox;
 }
 
 h2 {
@@ -55,23 +56,24 @@ h4 {
 }
 
 p {
-  font-size: .9em;
+  font-size: .8em;
   line-height: 1.8em;
   letter-spacing: .103em;
   margin-bottom: 15px;
 }
 
 span {
-  display: inline-block;
+  display:  inline-flex;
   font-size: 1em;
   line-height: 1em;
-  letter-spacing: .35em;
+  letter-spacing: .30em;
   vertical-align: top;
   padding-top: 10px;
+  margin-left: ;
 }
 
 img {
-  display: inline-block;
+  display: -ms-flexbox;
   margin: 0 40px;
 }
 
@@ -104,9 +106,9 @@ img {
 }
 
 #title-box {
-  width: 252px;
+  width: 300px;
   height: 165px;
   background: rgba(247,211,27,1);
-  margin-left: 163px;
+  margin-left: 125px;
   padding-top: 25px;
 }
